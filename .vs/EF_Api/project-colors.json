@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a84ec6be-b0f2-4f43-80dd-1f60d6798578": {
+      "ProjectGuid": "a84ec6be-b0f2-4f43-80dd-1f60d6798578",
+      "DisplayName": "EF_Api",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "7c7dba7b-415f-454a-a7ca-901a41be637d": {
+      "ProjectGuid": "7c7dba7b-415f-454a-a7ca-901a41be637d",
+      "DisplayName": "Api_EFUnitTest",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

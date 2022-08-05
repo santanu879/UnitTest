@@ -1,0 +1,47 @@
+[
+  {
+    "pubId": 1,
+    "publisherName": "New Moon Books",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "book": [],
+    "user": []
+  },
+  {
+    "pubId": 2,
+    "publisherName": "Binnet & Hardley",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "book": [],
+    "user": []
+  },
+  {
+    "pubId": 3,
+    "publisherName": "Algodata Infosystems",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA",
+    "book": [],
+    "user": []
+  },
+  {
+    "pubId": 4,
+    "publisherName": "Five Lakes Publishing",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "book": [],
+    "user": []
+  },
+  {
+    "pubId": 5,
+    "publisherName": "Ramona Publishers",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "USA",
+    "book": [],
+    "user": []
+  }
+]
