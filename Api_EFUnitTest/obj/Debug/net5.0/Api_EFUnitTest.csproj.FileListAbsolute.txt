@@ -143,3 +143,4 @@ C:\Santanu\EF\EF_Api\Api_EFUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.Test
 C:\Santanu\EF\EF_Api\Api_EFUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Santanu\EF\EF_Api\Api_EFUnitTest\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
 C:\Santanu\EF\EF_Api\Api_EFUnitTest\bin\Debug\net5.0\TestData\Publishers.json
+C:\Santanu\EF\EF_Api\Api_EFUnitTest\bin\Debug\net5.0\TestData\PublisherPost.json

@@ -55,3 +55,4 @@ C:\Santanu\EF\EF_Api\EF_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Santanu\EF\EF_Api\EF_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Santanu\EF\EF_Api\EF_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Santanu\EF\EF_Api\EF_Api\obj\Debug\net5.0\EF_Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Santanu\EF\EF_Api\EF_Api\obj\Debug\net5.0\EF_Api.csproj.AssemblyReference.cache

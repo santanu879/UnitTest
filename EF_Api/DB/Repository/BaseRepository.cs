@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 
 namespace EF_Api.DB.Repository
 {
@@ -14,9 +15,10 @@ namespace EF_Api.DB.Repository
         {
             this.context = bookStoreDBContext;
         }
-        public void Add(T entity)
+        public  T Add(T entity)
         {
-            context.Set<T>().Add(entity);
+            context.Set<T>().AddAsync(entity);
+            return entity;
         }
         public void AddRange(IEnumerable<T> entities)
         {

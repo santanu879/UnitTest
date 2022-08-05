@@ -24,22 +24,14 @@ namespace Api_EFUnitTest
         private Mock<IUnitOfWork> unitOfWork;
         private Fixture _fixture;
         private PublisherController _controller;
-        private readonly IConfiguration _configuration;
         public PublisherControllerTest()
         {
             unitOfWork = new Mock<IUnitOfWork>();
             _fixture = new Fixture();
-
-            //_configuration = new ConfigurationBuilder()
-            //   .SetBasePath(Directory.GetCurrentDirectory())
-            //   .AddJsonFile(@"TestData/Publisher.json", false, false)
-            //   .AddEnvironmentVariables()
-            //   .Build();
         }
         [TestMethod]
         public async Task Get()
         {
-
             //var publisherList = _fixture.CreateMany<PublisherMock>(2).ToList();
 
             string json = File.ReadAllText("TestData/Publishers.json");
@@ -51,8 +43,18 @@ namespace Api_EFUnitTest
             var result = _controller.Get();
             var obj = result.Result as ObjectResult;
             Assert.AreEqual(200, obj.StatusCode);
+        }
+        [TestMethod]
+        public async Task Post()
+        {
+            string json = File.ReadAllText("TestData/PublisherPost.json");
+            var publisher = JsonConvert.DeserializeObject<Publisher>(json);
+            unitOfWork.Setup(repo => repo.Publisher.Add(It.IsAny<Publisher>())).Returns(publisher);
 
-
+            _controller = new PublisherController(null, unitOfWork.Object, null);
+            var result = _controller.Post(publisher);
+            var obj = result.Result as ObjectResult;
+            Assert.AreEqual(200, obj.StatusCode);
         }
     }
 }
